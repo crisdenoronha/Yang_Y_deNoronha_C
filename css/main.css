@@ -345,7 +345,10 @@ body {
 .article p {
    color: #f1f1f1;
    background: #DC0E32;
-   padding: 1em 1.5em;
+   padding-top: 0em;
+   padding-left: 1.5em;
+   padding-right: 1.5em;
+   padding-bottom: 8.8em;
    font-size: 1.2em;
    font-weight: 400;
    align-self: center;
@@ -353,26 +356,58 @@ body {
    margin: 0em;
 }
 
-.article h3 {
+.article h2 {
    font-weight: 700;
    font-size: 3em;
    color: #f1f1f1;
    background: #DC0E32;
-   padding: 2.1em 1.5em;
+   padding: 1.5em 1.5em;
    align-self: center;
    justify-self: auto;
    margin: 0em;
 }
 
-.article h4 {
+.article h3 {
    font-weight: 400;
    font-size: 1.5em;
    color: #f1f1f1;
    background: #DC0E32;
-   padding: 2.2em 1.5em;
+   padding-left: 0.3em;
+   padding-right: 0.3em;
+   padding-top: 0.4em;
+   padding-bottom: 0.2em;
    align-self: center;
    justify-self: auto;
-   margin: 0em;
+   margin-top: -4em;
+   margin-left: 3.3em;
+   margin-right: 22em;
+   border: solid;
+   border-radius: 30px;
+   border-color: #f1f1f1;
+   border-width: 3px;
+}
+
+.article h3 a:hover {
+   color: #626262;
+   text-decoration: underline;
+   padding-bottom: 0.2em;
+   padding-left: 0.3em;
+}
+
+.article h3 a.active {
+   border-bottom: 3px solid #626262 ;
+   text-decoration: none;
+   padding-bottom: 0.2em; 
+   padding-left: 0.3em; 
+}
+
+
+.article h3:hover {
+   background-color: #626262;
+   border-radius: 30px;
+   -webkit-transition: background-color 500ms linear;
+   -ms-transition: background-color 500ms linear;
+   transition: background-color 500ms linear;
 }
 
 /*-------------------SVG----------------------*/
@@ -382,6 +417,10 @@ body {
    color: #000000;
    background: #d8B473;
    padding: 1.2em 1.5em;
+   padding-left: 1.5em;
+   padding-right: 1.5em;
+   padding-top: 0em;
+   padding-bottom: 7.45em;
    font-size: 1.2em;
    font-weight: 400;
    align-self: center;
@@ -389,7 +428,7 @@ body {
    margin: 0em;
 }
 
-.flex-container h3 {
+.flex-container h2 {
    font-weight: 700;
    font-size: 3em;
    color: #000000;
@@ -400,7 +439,7 @@ body {
    margin: 0em;
 }
 
-.flex-container h4 {
+.flex-container h3 {
    font-weight: 400;
    font-size: 1.5em;
    color: #000000;
@@ -409,7 +448,43 @@ body {
    align-self: center;
    justify-self: auto;
    margin: 0em;
+   padding-left: 0.4em;
+   padding-right: 0.3em;
+   padding-top: 0.4em;
+   padding-bottom: 0.2em;
+   margin-top: -4em;
+   margin-left: 3.3em;
+   margin-right: 21em;
+   border: solid;
+   border-radius: 30px;
+   border-color: #000000;
+   border-width: 3px;
 }
+
+.flex-container h3 a:hover {
+   color: #626262;
+   text-decoration: underline;
+   padding-bottom: 0.2em;
+   padding-left: 0.3em;
+}
+
+.flex-container h3 a.active {
+   border-bottom: 3px solid #626262 ;
+   text-decoration: none;
+   padding-bottom: 0.2em; 
+   padding-left: 0.3em; 
+}
+
+
+.flex-container h3:hover {
+   background-color: #626262;
+   border-radius: 30px;
+   -webkit-transition: background-color 500ms linear;
+   -ms-transition: background-color 500ms linear;
+   transition: background-color 500ms linear;
+}
+
+
 
 /*---------------Text--------------------*/
 
