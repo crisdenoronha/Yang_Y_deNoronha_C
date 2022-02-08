@@ -1,6 +1,6 @@
 # 1056-Homework 3
 
-TODO: The repo is for 1054 FIP that is developed by Cristine de Noronha and Ying Yang. In the repo, it contains images, css file and html files for the course.
+TODO: The repo is for 1056 FIP that is developed by Cristine de Noronha and Ying Yang. In the repo, it contains images, css file and html files for the course.
 
 ## Installation
 TODO: In the set up processing, it uses visual code for CSS and HTML5 and find ways on [W3Schools](https://www.w3schools.com/). 
