@@ -24,4 +24,4 @@ TODO: Ying and Cristine finishe the homework for two days.
 TODO: The homework is about 10% for credits in the  course.
 
 ## License
-TODO: Fanshawe College-Interative Media Design-Level 2 
+TODO: Fanshawe College-Interative Media Design-Level 2 (2022)
